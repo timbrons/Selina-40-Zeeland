@@ -53,19 +53,6 @@
   .chip{display:inline-flex;align-items:center;gap:5px;height:24px;padding:0 10px;border-radius:20px;font-size:12px;font-weight:700;line-height:1;color:#fff;}
   .c-och{background:var(--lion);} .c-mid{background:var(--sea);} .c-avo{background:#C08A1E;}
 
-  .cadeau{margin:12px 0 0;padding:13px 16px;border-radius:14px;font-size:14px;color:#5A4A38;background:#FFF6E9;border:1.5px dashed var(--sun);box-shadow:var(--shadow);}
-  .cadeau b{color:#A8452F;}
-
-  /* dag-in-één-oogopslag */
-  .basecamp{margin:14px 0 0;padding:15px 17px;border-radius:16px;background:var(--paper);border:1px solid var(--hair);border-left:5px solid var(--ink);box-shadow:var(--shadow);}
-  .basecamp .bc-head{font-weight:700;font-size:15px;color:var(--ink);display:flex;align-items:center;gap:7px;margin:0;}
-  .basecamp .addr{font-size:12.5px;color:var(--muted);margin:5px 0 0;}
-  .basecamp p.txt{font-size:14px;color:#5A5142;margin:8px 0 0;}
-  .basecamp strong{color:var(--ink);}
-  .basecamp .maps{--accent:var(--ink);}
-  .facts{list-style:none;margin:10px 0 0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(128px,1fr));gap:8px;}
-  .facts li{background:#F7FAFA;border:1px solid var(--hair);border-radius:12px;padding:9px 11px;font-size:12.5px;color:var(--muted);line-height:1.35;}
-  .facts li b{display:block;font-size:14px;color:var(--ink);font-weight:700;margin-bottom:1px;}
 
   /* ---------- Dagdeel ---------- */
   .day{padding:40px 0 4px;--accent:var(--lion);}
@@ -174,7 +161,7 @@
     body{background:#fff;}
     .cover,.tips,.anniv,.golven,.depart{-webkit-print-color-adjust:exact;print-color-adjust:exact;}
     .day,.tips{opacity:1!important;transform:none!important;}
-    .stop-card,.legend,.kids,.basecamp{break-inside:avoid;}
+    .stop-card,.legend,.kids{break-inside:avoid;}
     .maps{border-color:#999;color:#444;}
   }
 </style>
@@ -243,20 +230,6 @@
     </div>
   </div>
 
-  <div class="cadeau">🎂 <b>Waarom nú?</b> Selina werd al 40 op <b>19 december 2025</b>, maar we hebben bewust gewacht op het betere weer. Blote voeten in de branding en een strandwandeling doe je nu eenmaal fijner in augustus dan in december.</div>
-
-  <div class="basecamp">
-    <p class="bc-head">🚗 De dag in het kort</p>
-    <p class="addr">Vertrek Hilversum · Middelburg → Neeltje Jans → Vrouwenpolder · rond 23:00 uur weer thuis</p>
-    <ul class="facts">
-      <li><b>± 195 km</b>heen, ± 2 u 15 rijden</li>
-      <li><b>3 stops</b>stad, Deltawerken, strand</li>
-      <li><b>20:40 uur</b>zonsondergang aan zee</li>
-      <li><b>1 jarige</b>en één cadeau 🎁</li>
-    </ul>
-    <p class="txt">Twee routes naar Zeeland: de snelste via de <strong>A27 / A58</strong> langs Bergen op Zoom, of de mooiste via de <strong>N57</strong> over de Brouwersdam en dwars over de Oosterscheldekering. Die tweede route is een paar minuten langer, maar geeft alvast een voorproefje van de Deltawerken. Check onderweg de actuele reistijd.</p>
-    <a class="maps" href="https://www.google.com/maps/dir/?api=1&amp;origin=Hilversum&amp;destination=Parkeergarage%20Kousteensedijk%20Middelburg&amp;travelmode=driving" target="_blank" rel="noopener">📍 Route Hilversum → Middelburg</a>
-  </div>
 
   <!-- ============ DEEL 1 · MIDDELBURG ============ -->
   <section class="day day--1">
