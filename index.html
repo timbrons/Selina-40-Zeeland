@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dagje Zeeland — Selina 40 jaar · zaterdag 29 augustus</title>
+<meta name="description" content="Programma voor het dagje Zeeland ter gelegenheid van Selina's 40e verjaardag — zaterdag 29 augustus 2026.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230A5EA8'/%3E%3Cpath d='M2 13q4-4 8 0t8 0 8 0 8 0' fill='none' stroke='%23fff' stroke-width='2.4' stroke-linecap='round'/%3E%3Cpath d='M2 21q4-4 8 0t8 0 8 0 8 0' fill='none' stroke='%23fff' stroke-width='2.4' stroke-linecap='round'/%3E%3C/svg%3E">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Zeeland 2026">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="theme-color" content="#0A5EA8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#1E3140;--muted:#77746A;--sun:#E9A93B;--lion:#C1462F;--leaf:#4E9D6C;--sea:#2C7A93;
+    --paper:#FFFFFF;--hair:#EDE2D0;--shadow:0 3px 18px rgba(64,110,130,.14);
+    --zbl:#0A5EA8;--zwt:#FFFFFF;
+  }
+  *{box-sizing:border-box;}
+  html{-webkit-text-size-adjust:100%;}
+  body{margin:0;color:var(--ink);font-family:'Inter',system-ui,sans-serif;font-size:16.5px;line-height:1.55;-webkit-font-smoothing:antialiased;background:linear-gradient(168deg,#FFF4E2 0%,#FDF6EA 30%,#F1F5EF 62%,#E4F0F2 100%);background-attachment:fixed;}
+  .wrap{max-width:680px;margin:0 auto;padding:0 18px 64px;}
+
+  /* Zeeuwse golfjesvlag */
+  .golven{margin:0 -18px;height:16px;line-height:0;}
+  .golven svg{display:block;width:100%;height:16px;}
+
+  /* ---------- Cover ---------- */
+  .cover{position:relative;overflow:hidden;margin:0 -18px;padding:40px 26px 34px;background:linear-gradient(140deg,#FFE7BE 0%,#FCD9A6 34%,#E9CFAE 62%,#BFDCDE 100%);border-bottom:3px solid var(--ink);}
+  .cover::before{content:"";position:absolute;top:-100px;right:-70px;width:300px;height:300px;border-radius:50%;background:radial-gradient(circle,#FFF2C4 0%,rgba(255,226,150,.5) 44%,rgba(255,226,150,0) 72%);pointer-events:none;}
+  .cover>*{position:relative;z-index:1;}
+  .emblem{display:block;width:100%;max-width:330px;height:auto;margin:2px 0 16px;opacity:.96;}
+  .eyebrow{font-size:12px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:#A8452F;margin:0 0 12px;}
+  .cover h1{font-family:'Fraunces',serif;font-weight:900;font-size:clamp(44px,13.5vw,72px);line-height:.92;letter-spacing:-.015em;margin:0;color:#2A3B27;}
+  .cover h1 em{display:block;font-style:italic;font-weight:400;font-size:clamp(18px,5vw,27px);line-height:1.25;color:#A8452F;margin-top:15px;letter-spacing:.005em;}
+  .dates{margin:18px 0 0;font-size:17px;font-weight:700;color:#3E4F35;display:flex;flex-wrap:wrap;gap:6px 15px;align-items:baseline;}
+  .dates .yr{color:#7E8C6A;font-weight:500;}
+
+  /* stempel */
+  .stamp{position:absolute;z-index:2;right:16px;top:18px;width:100px;height:100px;border-radius:50%;border:2px dashed #A8452F;color:#A8452F;transform:rotate(-11deg);opacity:.85;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;text-align:center;}
+  .stamp::after{content:"";position:absolute;inset:7px;border-radius:50%;border:1px solid rgba(168,69,47,.45);}
+  .stamp .s-top{font-size:8.5px;font-weight:700;line-height:1;letter-spacing:.14em;}
+  .stamp b{font-family:'Fraunces',serif;font-size:34px;line-height:.86;letter-spacing:.02em;font-weight:900;}
+  .stamp .s-bot{font-size:8.5px;font-weight:700;letter-spacing:.1em;line-height:1.25;}
+
+  /* ---------- Legenda ---------- */
+  .legend{margin:18px 0 0;padding:15px 17px;background:var(--paper);border:1px solid var(--hair);border-radius:16px;font-size:14px;color:var(--muted);box-shadow:var(--shadow);}
+  .legend strong{color:var(--ink);font-weight:600;}
+  .legend .badges{display:flex;flex-wrap:wrap;gap:6px;margin:11px 0 0;}
+  .chip{display:inline-flex;align-items:center;gap:5px;height:24px;padding:0 10px;border-radius:20px;font-size:12px;font-weight:700;line-height:1;color:#fff;}
+  .c-och{background:var(--lion);} .c-mid{background:var(--sea);} .c-avo{background:#C08A1E;}
+
+  .cadeau{margin:12px 0 0;padding:13px 16px;border-radius:14px;font-size:14px;color:#5A4A38;background:#FFF6E9;border:1.5px dashed var(--sun);box-shadow:var(--shadow);}
+  .cadeau b{color:#A8452F;}
+
+  /* dag-in-één-oogopslag */
+  .basecamp{margin:14px 0 0;padding:15px 17px;border-radius:16px;background:var(--paper);border:1px solid var(--hair);border-left:5px solid var(--ink);box-shadow:var(--shadow);}
+  .basecamp .bc-head{font-weight:700;font-size:15px;color:var(--ink);display:flex;align-items:center;gap:7px;margin:0;}
+  .basecamp .addr{font-size:12.5px;color:var(--muted);margin:5px 0 0;}
+  .basecamp p.txt{font-size:14px;color:#5A5142;margin:8px 0 0;}
+  .basecamp strong{color:var(--ink);}
+  .basecamp .maps{--accent:var(--ink);}
+  .facts{list-style:none;margin:10px 0 0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(128px,1fr));gap:8px;}
+  .facts li{background:#F7FAFA;border:1px solid var(--hair);border-radius:12px;padding:9px 11px;font-size:12.5px;color:var(--muted);line-height:1.35;}
+  .facts li b{display:block;font-size:14px;color:var(--ink);font-weight:700;margin-bottom:1px;}
+
+  /* ---------- Dagdeel ---------- */
+  .day{padding:40px 0 4px;--accent:var(--lion);}
+  .day--1{--accent:var(--lion);} .day--2{--accent:var(--sea);} .day--3{--accent:#C08A1E;}
+  .day-head{display:flex;align-items:flex-start;gap:16px;margin:0 0 6px;}
+  .day-num{font-family:'Fraunces',serif;font-weight:900;font-size:58px;line-height:.78;flex:none;width:58px;background:linear-gradient(150deg,var(--accent),var(--sun));-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;}
+  .day-meta{padding-top:5px;}
+  .day-meta .dow{font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);margin:0 0 3px;display:inline-flex;align-items:center;gap:7px;}
+  .day-meta .dow::before{content:"";width:18px;height:3px;border-radius:3px;background:var(--accent);}
+  .day-meta h2{font-family:'Fraunces',serif;font-weight:600;font-size:26px;line-height:1.05;margin:0;letter-spacing:-.01em;}
+  .day-narr{color:var(--muted);font-size:15px;margin:8px 0 18px;}
+
+  .anniv{position:relative;overflow:hidden;margin:0 0 20px;padding:17px 19px;border-radius:16px;background:linear-gradient(120deg,#FBE7B0 0%,#F6D78C 46%,#EFCBA6 100%);border:1.5px solid #CC9E3E;box-shadow:var(--shadow);}
+  .anniv::before{content:"";position:absolute;top:-44px;right:-30px;width:160px;height:160px;border-radius:50%;background:radial-gradient(circle,rgba(255,255,255,.75),rgba(255,255,255,0) 70%);pointer-events:none;}
+  .anniv>*{position:relative;}
+  .anniv-eyebrow{font-size:11px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:#A9772A;margin:0 0 4px;}
+  .anniv h3{font-family:'Fraunces',serif;font-weight:600;font-size:21px;line-height:1.15;margin:0;color:#6E4A1C;}
+  .anniv p{font-size:14px;color:#7C5C2E;margin:6px 0 0;}
+
+  /* reis-nodes */
+  .dot.travel{border-radius:4px;border-color:var(--ink);}
+  .dot.travel.end{background:var(--ink);}
+  .stop-card.travel{background:#F7F3EA;}
+  .stop-card.travel::before{background:var(--ink);}
+  .stop-card.travel .stop-time{color:#6A6151;}
+  .stop-card.travel h3{display:flex;align-items:center;gap:8px;}
+
+  /* terugreis-banner */
+  .depart{position:relative;overflow:hidden;margin:34px 0 0;padding:21px;border-radius:18px;background:linear-gradient(135deg,#1E3140 0%,#2F5A66 100%);color:#EDEAE2;border:2px solid var(--ink);}
+  .depart::before{content:"";position:absolute;top:-50px;right:-40px;width:170px;height:170px;border-radius:50%;background:radial-gradient(circle,rgba(233,169,59,.3),rgba(233,169,59,0) 70%);pointer-events:none;}
+  .depart>*{position:relative;}
+  .depart .dep-eyebrow{font-size:11px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--sun);margin:0 0 6px;}
+  .depart h2{font-family:'Fraunces',serif;font-weight:600;font-size:21px;margin:0;color:#fff;display:flex;align-items:center;gap:9px;}
+  .depart p{font-size:14px;color:#D5D9D6;margin:8px 0 0;}
+  .depart .maps{--accent:var(--sun);margin-top:13px;}
+
+  /* ---------- Tijdlijn ---------- */
+  .row{display:grid;grid-template-columns:30px 1fr;column-gap:14px;}
+  .rail{position:relative;}
+  .rail::before{content:"";position:absolute;left:14px;top:0;bottom:0;width:3px;background:var(--accent);opacity:.32;transform:translateX(-50%);border-radius:3px;}
+  .row.first .rail::before{top:14px;}
+  .row.last .rail::before{bottom:auto;height:14px;}
+  .dot{position:absolute;left:14px;top:7px;width:16px;height:16px;border-radius:50%;background:var(--paper);border:3px solid var(--accent);transform:translateX(-50%);z-index:2;box-shadow:0 0 0 4px rgba(255,255,255,.6);}
+  .dot.end{background:var(--accent);}
+
+  .stop-body{padding:0 0 4px;}
+  .stop-card{position:relative;background:var(--paper);border:1px solid var(--hair);border-radius:16px;padding:14px 16px;margin:0 0 2px;box-shadow:var(--shadow);overflow:hidden;}
+  .stop-card::before{content:"";position:absolute;left:0;top:0;bottom:0;width:5px;background:var(--accent);}
+  .stop-time{font-variant-numeric:tabular-nums;font-weight:700;font-size:13px;color:var(--accent);letter-spacing:.02em;margin:0 0 2px;}
+  .stop-card h3{font-size:18px;font-weight:700;margin:0;line-height:1.2;}
+  .stop-card .addr{font-size:12.5px;color:var(--muted);margin:3px 0 0;}
+  .stop-card .desc{font-size:14.5px;margin:8px 0 0;}
+  .stop-card .desc + .desc{margin-top:7px;}
+  .stop-card .meta{font-size:12.5px;color:var(--muted);margin:9px 0 0;display:flex;flex-wrap:wrap;gap:5px 12px;align-items:center;}
+  .tag{display:inline-block;font-size:11px;font-weight:700;color:#fff;background:var(--accent);border-radius:20px;padding:3px 11px;margin:10px 6px 0 0;}
+
+  .route{list-style:none;margin:9px 0 0;padding:0;font-size:14px;}
+  .route li{position:relative;padding:0 0 0 20px;margin:0 0 5px;color:#4E5A50;}
+  .route li:last-child{margin-bottom:0;}
+  .route li::before{content:"";position:absolute;left:2px;top:8px;width:7px;height:7px;border-radius:50%;background:var(--accent);opacity:.65;}
+  .route li b{color:var(--ink);}
+  .route li a{color:var(--accent);font-weight:600;text-decoration:none;border-bottom:1px solid rgba(0,0,0,.14);}
+
+  /* google maps link */
+  .maps{display:inline-flex;align-items:center;gap:5px;margin:11px 8px 0 0;font-size:12.5px;font-weight:600;color:var(--accent);text-decoration:none;padding:5px 11px;border:1px solid var(--accent);border-radius:20px;}
+  .maps:hover{background:var(--accent);color:#fff;}
+
+  .kids{margin:11px 0 2px;padding:12px 14px;border-radius:13px;background:#FFF7EA;border:1.5px dashed var(--accent);}
+  .kids .k-head{font-weight:700;font-size:14px;color:var(--accent);display:flex;align-items:center;gap:7px;margin:0;}
+  .kids .fact{font-size:14px;font-style:italic;color:#6E5E48;margin:6px 0 0;}
+  .kids .task{font-size:14.5px;color:#4A3F30;margin:5px 0 0;}
+
+  .leg-body{padding:11px 2px 13px;}
+  .leg-mode{display:inline-flex;align-items:center;gap:8px;font-size:13.5px;font-weight:700;color:var(--ink);flex-wrap:wrap;}
+  .leg-mode .ic{font-size:16px;}
+  .leg-mode .dur{font-variant-numeric:tabular-nums;color:var(--muted);font-weight:500;}
+  .leg-detail{font-size:13px;color:var(--muted);margin:5px 0 0;}
+  .leg-body .maps{margin-top:8px;}
+
+  /* ---------- Tips ---------- */
+  .tips{position:relative;overflow:hidden;margin:44px 0 0;padding:24px 22px;border-radius:20px;background:linear-gradient(135deg,#FFD98A 0%,#F3C98F 48%,#A9D3D6 100%);border:2px solid var(--ink);color:#2A3B27;}
+  .tips::before{content:"";position:absolute;bottom:-70px;left:-40px;width:200px;height:200px;border-radius:50%;background:radial-gradient(circle,rgba(255,255,255,.55),rgba(255,255,255,0) 70%);pointer-events:none;}
+  .tips>*{position:relative;z-index:1;}
+  .tips h2{font-family:'Fraunces',serif;font-weight:600;font-size:22px;margin:0 0 14px;color:#2A3B27;display:flex;align-items:center;gap:9px;}
+  .tips ul{margin:0;padding:0;list-style:none;}
+  .tips li{position:relative;padding:0 0 0 24px;margin:0 0 12px;font-size:14.5px;line-height:1.45;color:#40482F;}
+  .tips li:last-child{margin-bottom:0;}
+  .tips li::before{content:"";position:absolute;left:0;top:6px;width:10px;height:10px;border-radius:50%;background:#A8452F;}
+  .tips li strong{color:#22301C;font-weight:700;}
+
+  .foot{margin:24px 2px 0;font-size:13px;color:var(--muted);text-align:center;}
+  .foot .bon{font-family:'Fraunces',serif;font-style:italic;font-size:16px;color:var(--lion);display:block;margin:0 0 4px;}
+
+  @media (max-width:440px){
+    .cover{padding:34px 20px 30px;}
+    .stamp{width:84px;height:84px;top:14px;right:12px;}
+    .stamp b{font-size:28px;}
+    .day-num{font-size:50px;width:50px;}
+    .day-meta h2{font-size:22px;}
+  }
+  @media (prefers-reduced-motion:no-preference){
+    .day{opacity:0;transform:translateY(14px);animation:rise .6s ease forwards;}
+    .day:nth-of-type(1){animation-delay:.05s;}.day:nth-of-type(2){animation-delay:.12s;}.day:nth-of-type(3){animation-delay:.19s;}
+    @keyframes rise{to{opacity:1;transform:none;}}
+  }
+  @media print{
+    body{background:#fff;}
+    .cover,.tips,.anniv,.golven,.depart{-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+    .day,.tips{opacity:1!important;transform:none!important;}
+    .stop-card,.legend,.kids,.basecamp{break-inside:avoid;}
+    .maps{border-color:#999;color:#444;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="golven" aria-hidden="true">
+    <svg viewBox="0 0 120 16" preserveAspectRatio="none">
+      <rect width="120" height="16" fill="#0A5EA8"/>
+      <path d="M0,5 q3,-2.6 6,0 t6,0 t6,0 t6,0 t6,0 t6,0 t6,0 t6,0 t6,0 t6,0 t6,0 t6,0 t6,0 t6,0 t6,0 t6,0 t6,0 t6,0 t6,0 t6,0" fill="none" stroke="#fff" stroke-width="1.9" stroke-linecap="round"/>
+      <path d="M0,11 q3,-2.6 6,0 t6,0 t6,0 t6,0 t6,0 t6,0 t6,0 t6,0 t6,0 t6,0 t6,0 t6,0 t6,0 t6,0 t6,0 t6,0 t6,0 t6,0 t6,0 t6,0" fill="none" stroke="#fff" stroke-width="1.9" stroke-linecap="round"/>
+    </svg>
+  </div>
+
+  <header class="cover">
+    <div class="stamp"><span class="s-top">★ ZEELAND ★</span><b>40</b><span class="s-bot">29 AUG<br>2026</span></div>
+
+    <svg class="emblem" viewBox="0 0 340 150" role="img" aria-label="De Oosterscheldekering boven de golven">
+      <defs><clipPath id="zeeclip"><path d="M0,96 H340 V132 a18,18 0 0 1 -18,18 H18 A18,18 0 0 1 0,132 Z"/></clipPath></defs>
+      <circle cx="252" cy="46" r="27" fill="#F3BE5E" opacity=".9"/>
+      <g fill="none" stroke="#3B4A3A" stroke-width="2.3" stroke-linecap="round" opacity=".8">
+        <path d="M42 30 q7 -6.5 13.5 0 q6.5 -6.5 13.5 0"/>
+        <path d="M86 50 q5.5 -5 10.5 0 q5 -5 10.5 0"/>
+        <path d="M140 24 q4.5 -4 8.5 0 q4 -4 8.5 0"/>
+      </g>
+      <g fill="#243A46">
+        <rect x="0" y="74" width="340" height="7" rx="3"/>
+        <path d="M12,81 l-3,26 h20 l-3,-26 z"/>
+        <path d="M52,81 l-3,26 h20 l-3,-26 z"/>
+        <path d="M92,81 l-3,26 h20 l-3,-26 z"/>
+        <path d="M132,81 l-3,26 h20 l-3,-26 z"/>
+        <path d="M172,81 l-3,26 h20 l-3,-26 z"/>
+        <path d="M212,81 l-3,26 h20 l-3,-26 z"/>
+        <path d="M252,81 l-3,26 h20 l-3,-26 z"/>
+        <path d="M292,81 l-3,26 h20 l-3,-26 z"/>
+        <path d="M328,81 l-3,26 h20 l-3,-26 z"/>
+      </g>
+      <g fill="#243A46" opacity=".38">
+        <rect x="30" y="81" width="22" height="11" rx="2"/>
+        <rect x="70" y="81" width="22" height="11" rx="2"/>
+        <rect x="110" y="81" width="22" height="11" rx="2"/>
+        <rect x="150" y="81" width="22" height="11" rx="2"/>
+        <rect x="190" y="81" width="22" height="11" rx="2"/>
+        <rect x="230" y="81" width="22" height="11" rx="2"/>
+        <rect x="270" y="81" width="22" height="11" rx="2"/>
+        <rect x="310" y="81" width="18" height="11" rx="2"/>
+      </g>
+      <g clip-path="url(#zeeclip)">
+      <path d="M0,106 q21,-8 42,0 t42,0 t42,0 t42,0 t42,0 t42,0 t42,0 t42,0 v44 H0 Z" fill="#3C8AA0"/>
+      <path d="M0,118 q21,-8 42,0 t42,0 t42,0 t42,0 t42,0 t42,0 t42,0 t42,0 v32 H0 Z" fill="#256076" opacity=".7"/>
+      </g>
+    </svg>
+
+    <p class="eyebrow">🎁 Het cadeau voor Selina · 40 jaar</p>
+    <h1>Zeeland<em>een dag Middelburg, Deltawerken &amp; strand</em></h1>
+    <p class="dates">zaterdag 29 augustus <span class="yr">2026</span></p>
+  </header>
+
+  <div class="legend">
+    <strong>Zo lees je het programma:</strong> de dag bestaat uit drie delen. Elk deel is een route met haltes; tussen de stops staat hoe je reist en hoe lang het duurt. Alle tijden zijn richttijden — schuif gerust, het is tenslotte een cadeau en geen strak schema. Tik op <strong>📍 Google Maps</strong> voor de route of de locatie.
+    <div class="badges">
+      <span class="chip c-och">Ochtend · Middelburg</span>
+      <span class="chip c-mid">Middag · Deltawerken</span>
+      <span class="chip c-avo">Avond · Strand</span>
+    </div>
+  </div>
+
+  <div class="cadeau">🎂 <b>Waarom nú?</b> Selina werd al 40 op <b>19 december 2025</b>, maar we hebben bewust gewacht op het betere weer. Blote voeten in de branding en een strandwandeling doe je nu eenmaal fijner in augustus dan in december.</div>
+
+  <div class="basecamp">
+    <p class="bc-head">🚗 De dag in het kort</p>
+    <p class="addr">Vertrek Hilversum · Middelburg → Neeltje Jans → Vrouwenpolder · rond 23:00 uur weer thuis</p>
+    <ul class="facts">
+      <li><b>± 195 km</b>heen, ± 2 u 15 rijden</li>
+      <li><b>3 stops</b>stad, Deltawerken, strand</li>
+      <li><b>20:40 uur</b>zonsondergang aan zee</li>
+      <li><b>1 jarige</b>en één cadeau 🎁</li>
+    </ul>
+    <p class="txt">Twee routes naar Zeeland: de snelste via de <strong>A27 / A58</strong> langs Bergen op Zoom, of de mooiste via de <strong>N57</strong> over de Brouwersdam en dwars over de Oosterscheldekering. Die tweede route is een paar minuten langer, maar geeft alvast een voorproefje van de Deltawerken. Check onderweg de actuele reistijd.</p>
+    <a class="maps" href="https://www.google.com/maps/dir/?api=1&amp;origin=Hilversum&amp;destination=Parkeergarage%20Kousteensedijk%20Middelburg&amp;travelmode=driving" target="_blank" rel="noopener">📍 Route Hilversum → Middelburg</a>
+  </div>
+
+  <!-- ============ DEEL 1 · MIDDELBURG ============ -->
+  <section class="day day--1">
+    <div class="day-head">
+      <div class="day-num">1</div>
+      <div class="day-meta">
+        <p class="dow">Ochtend · Middelburg</p>
+        <h2>Abdij, Lange Jan &amp; koopmanshuizen</h2>
+      </div>
+    </div>
+    <p class="day-narr">Vroeg weg uit Hilversum, en dan de mooiste binnenstad van Zeeland in: eeuwenoude abdijgebouwen, scheve gevels langs de grachten en een museum vol Zeeuwse verhalen. Afsluiten met een lange lunch op de Markt.</p>
+
+    <div class="anniv">
+      <p class="anniv-eyebrow">✦ Speciaal voor de jarige</p>
+      <h3>Verstopt in de dag: veertig kleine dingen</h3>
+      <p>Bij elke stop staat een geel kadertje met een weetje en een klein missietje voor Selina. Wie ze alle vijf volbrengt, heeft officieel een geslaagde veertigste verjaardag achter de rug.</p>
+    </div>
+
+    <div class="row first">
+      <div class="rail"><span class="dot travel"></span></div>
+      <div class="stop-body">
+        <div class="stop-card travel">
+          <p class="stop-time">± 07:15</p>
+          <h3>🚗 Vertrek uit Hilversum</h3>
+          <p class="desc">De tijd stond nog open — dit is de aanrader. Om om 10:00 uur te kúnnen starten met de wandeling, reken je terug: ± 2 u 15 rijden, een korte koffiestop onderweg, en 15 minuten voor parkeren en naar de Markt lopen. Uiterlijk om <strong>07:30 uur</strong> op weg dus.</p>
+          <p class="desc">Vertrekt de hele club samen? Spreek af waar je instapt, zodat er om 07:15 daadwerkelijk gereden wordt.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="rail"></div>
+      <div class="leg-body">
+        <span class="leg-mode"><span class="ic">🚗</span> Autorit naar Middelburg <span class="dur">· ± 2 u 15 · ~195 km</span></span>
+        <p class="leg-detail">Via de A27 en A58, of de kustroute over de N57. Onderweg tanken en koffie kan prima bij een van de wegrestaurants langs de A27 of A58.</p>
+        <a class="maps" href="https://www.google.com/maps/dir/?api=1&amp;origin=Hilversum&amp;destination=Parkeergarage%20Kousteensedijk%20Middelburg&amp;travelmode=driving" target="_blank" rel="noopener">📍 Route</a>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="rail"><span class="dot travel"></span></div>
+      <div class="stop-body">
+        <div class="stop-card travel">
+          <p class="stop-time">± 09:45</p>
+          <h3>🅿️ Parkeren · Parkeergarage Kousteensedijk</h3>
+          <p class="addr">Kousteensedijk, Middelburg · 24/7 open · ± € 2,30 per uur, dagmaximum ± € 11,30</p>
+          <p class="desc">De handigste garage voor de binnenstad: je rijdt Middelburg binnen via de Schroeweg en staat binnen vijf minuten lopen van de Markt. Het centrum is autoluw, dus parkeer hier en doe de rest te voet — alles ligt binnen een kwartier van elkaar.</p>
+          <a class="maps" href="https://www.google.com/maps/search/?api=1&amp;query=Parkeergarage%20Kousteensedijk%20Middelburg" target="_blank" rel="noopener">📍 Google Maps</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="rail"></div>
+      <div class="leg-body">
+        <span class="leg-mode"><span class="ic">🚶</span> Lopen naar de Abdij <span class="dur">· ± 8 min</span></span>
+        <p class="leg-detail">Via de Lange Delft of langs de gracht — je loopt zo het middeleeuwse hart in.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="rail"><span class="dot"></span></div>
+      <div class="stop-body">
+        <div class="stop-card">
+          <p class="stop-time">10:00 — 11:00</p>
+          <h3>Stadswandeling door Middelburg</h3>
+          <p class="addr">Start: Abdijplein · ± 2,5 km, rustig aan te lopen in een uur</p>
+          <p class="desc">Een compacte lus langs het mooiste van Middelburg. De stad werd in 1940 zwaar gebombardeerd en daarna zorgvuldig hersteld — juist daardoor voelt de binnenstad als één geheel.</p>
+          <ul class="route">
+            <li><b><a href="https://www.google.com/maps/search/?api=1&amp;query=Abdij%20Middelburg" target="_blank" rel="noopener">Abdij</a></b> — een compleet abdijcomplex uit de 12e eeuw, met binnenpleinen waar het altijd stil is.</li>
+            <li><b><a href="https://www.google.com/maps/search/?api=1&amp;query=Abdijtoren%20Lange%20Jan%20Middelburg" target="_blank" rel="noopener">Lange Jan</a></b> — de abdijtoren, 90,5 meter, de hoogste van Zeeland. Wie de 207 treden op wil: de toren is doorgaans vanaf 11:00 uur open, dus dat kan alleen als je de volgorde met het museum omdraait.</li>
+            <li><b><a href="https://www.google.com/maps/search/?api=1&amp;query=Damplein%20Middelburg" target="_blank" rel="noopener">Damplein</a> &amp; de haven</b> — de statige koopmanshuizen en pakhuizen uit de gouden tijd van de VOC-kamer Zeeland.</li>
+            <li><b><a href="https://www.google.com/maps/search/?api=1&amp;query=Kuiperspoort%20Middelburg" target="_blank" rel="noopener">Kuiperspoort</a></b> — het mooiste hoekje van de stad: 16e-eeuwse pakhuisjes aan een geplaveid steegje, ooit van het kuipersgilde.</li>
+            <li><b><a href="https://www.google.com/maps/search/?api=1&amp;query=Vismarkt%20Middelburg" target="_blank" rel="noopener">Vismarkt</a></b> — zuilenhal waar de vissers hun vangst verkochten, nu een terrasplein.</li>
+            <li><b>Terug naar de <a href="https://www.google.com/maps/search/?api=1&amp;query=Markt%20Middelburg" target="_blank" rel="noopener">Markt</a></b> — met het uitbundige laatgotische stadhuis als klapstuk.</li>
+          </ul>
+          <div class="kids">
+            <p class="k-head">🎈 Missie 1 voor Selina</p>
+            <p class="fact">Wist je dat? De Lange Jan is 90,5 meter hoog — ruim twee keer 40 meter, en daarmee het hoogste punt van heel Zeeland.</p>
+            <p class="task">Zoek in de Kuiperspoort het scheefste huisje en laat je daar fotograferen. Foto nummer één van de veertig.</p>
+          </div>
+          <a class="maps" href="https://www.google.com/maps/search/?api=1&amp;query=Abdij%20Middelburg" target="_blank" rel="noopener">📍 Startpunt Abdij</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="rail"></div>
+      <div class="leg-body">
+        <span class="leg-mode"><span class="ic">🚶</span> Lopen <span class="dur">· ± 2 min</span></span>
+        <p class="leg-detail">Het museum zit ín de Abdij — je wandelt zo het binnenplein over naar de ingang.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="rail"><span class="dot"></span></div>
+      <div class="stop-body">
+        <div class="stop-card">
+          <p class="stop-time">11:00 — 12:15</p>
+          <h3>Zeeuws Museum</h3>
+          <p class="addr">Abdij 3-4, 4331 BK Middelburg · di t/m zo 11:00 – 17:00</p>
+          <p class="desc">Precies op openingstijd binnen, dus je hebt de zalen even bijna voor jezelf. Het museum zit in de middeleeuwse abdij en vertelt Zeeland aan de hand van zo'n 30.000 voorwerpen: streekdracht en Zeeuwse knopen, kabinetten vol curiosa uit de VOC-tijd, en hedendaagse mode en kunst ertussendoor.</p>
+          <p class="desc">Niet te missen: de zaal met de zestiende-eeuwse <strong>wandtapijten</strong>, meters hoog, waarop de zeeslagen tegen de Spanjaarden zijn geweven — met alle schepen tot in de touwen nauwkeurig.</p>
+          <div class="kids">
+            <p class="k-head">🎈 Missie 2 voor Selina</p>
+            <p class="fact">Wist je dat? De Zeeuwse wandtapijten hangen er al ruim vier eeuwen — tien keer jouw leeftijd.</p>
+            <p class="task">Zoek in de museumzalen het voorwerp waarvan jij denkt: dít zou ik mee naar huis nemen. Iedereen raadt daarna welk het is.</p>
+          </div>
+          <span class="tag">Tickets aan de kassa of vooraf online</span>
+          <a class="maps" href="https://www.google.com/maps/search/?api=1&amp;query=Zeeuws%20Museum%20Abdij%203%204331%20BK%20Middelburg" target="_blank" rel="noopener">📍 Google Maps</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="rail"></div>
+      <div class="leg-body">
+        <span class="leg-mode"><span class="ic">🚶</span> Lopen naar de Markt <span class="dur">· ± 5 min</span></span>
+        <p class="leg-detail">Vanaf de Abdij via de Nieuwe Burg zo het marktplein op.</p>
+      </div>
+    </div>
+
+    <div class="row last">
+      <div class="rail"><span class="dot end"></span></div>
+      <div class="stop-body">
+        <div class="stop-card">
+          <p class="stop-time">12:30 — 13:15</p>
+          <h3>Lunch · MarktCafé Middelburg 🥂</h3>
+          <p class="addr">Markt 17, 4331 LJ Middelburg</p>
+          <p class="desc">Op de mooiste plek van de stad: groot terras midden op de Markt, met uitzicht op het stadhuis. Grand café met een ruime lunchkaart — van een goede broodplank tot Zeeuwse klassiekers. Op zaterdag is het marktdag, dus de gezelligheid komt vanzelf naar je toe.</p>
+          <p class="desc">Zonnetje erbij? Vraag om een tafel op het terras. Het is 45 minuten voor de lunch, dus bestel vlot en houd het luchtig — er wacht nog een halve dag.</p>
+          <div class="kids">
+            <p class="k-head">🎈 Missie 3 voor Selina</p>
+            <p class="task">Eerste toost van de dag op de Markt. En natuurlijk: iets Zeeuws op tafel — mosselen, een kroketje van Zeeuws vlees of gewoon Zeeuwse bolus toe.</p>
+          </div>
+          <span class="tag">Vooraf reserveren voor een groep</span>
+          <a class="maps" href="https://www.google.com/maps/search/?api=1&amp;query=Marktcaf%C3%A9%20Markt%2017%204331%20LJ%20Middelburg" target="_blank" rel="noopener">📍 Google Maps</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ DEEL 2 · DELTAWERKEN ============ -->
+  <section class="day day--2">
+    <div class="day-head">
+      <div class="day-num">2</div>
+      <div class="day-meta">
+        <p class="dow">Middag · Deltawerken</p>
+        <h2>Neeltje Jans &amp; de Oosterscheldekering</h2>
+      </div>
+    </div>
+    <p class="day-narr">Van de binnenstad naar het grootste bouwwerk van Nederland. Op een kunstmatig eiland midden in de stormvloedkering staat het verhaal van 1953 en van alles wat daarna gebouwd is — inclusief een machine die je windkracht 12 in het gezicht blaast.</p>
+
+    <div class="row first">
+      <div class="rail"><span class="dot travel"></span></div>
+      <div class="stop-body">
+        <div class="stop-card travel">
+          <p class="stop-time">13:15</p>
+          <h3>🚗 Vertrek naar Neeltje Jans</h3>
+          <p class="desc">Terug naar de garage en de N57 op, richting het noorden over Walcheren en de Veerse Gatdam.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="rail"></div>
+      <div class="leg-body">
+        <span class="leg-mode"><span class="ic">🚗</span> Autorit over de N57 <span class="dur">· ± 30 min · ~30 km</span></span>
+        <p class="leg-detail">Een van de mooiste stukken asfalt van het land: over de Veerse Gatdam, langs de duinen van Vrouwenpolder en dan de kering op. Rechts de Noordzee, links de Oosterschelde. Ruim ingepland, dus stoppen voor een foto op de dam mag.</p>
+        <a class="maps" href="https://www.google.com/maps/dir/?api=1&amp;origin=Markt%20Middelburg&amp;destination=Deltapark%20Neeltje%20Jans%20Faelweg%205%20Vrouwenpolder&amp;travelmode=driving" target="_blank" rel="noopener">📍 Route</a>
+      </div>
+    </div>
+
+    <div class="row last">
+      <div class="rail"><span class="dot end"></span></div>
+      <div class="stop-body">
+        <div class="stop-card">
+          <p class="stop-time">14:00 — 16:30</p>
+          <h3>Deltapark Neeltje Jans</h3>
+          <p class="addr">Faelweg 5, 4354 RB Vrouwenpolder · dagelijks 10:00 – 17:00 (hoogseizoen)</p>
+          <p class="desc">Tweeënhalf uur is genoeg voor de hoogtepunten, maar niet voor álles — kies bij binnenkomst wat je écht wilt zien. De aanrader in deze volgorde:</p>
+          <ul class="route">
+            <li><b>Meteen bij aankomst:</b> aanmelden voor de <b>rondvaart over de Oosterschelde</b>. Reserveren kan niet; je schrijft je bij binnenkomst in voor een vaart. Vast vertrek is 13:30 uur, bij drukte varen er extra boten — vraag er direct naar, de vaart duurt ± 1 uur.</li>
+            <li><b>De orkaanmachine</b> — windkracht 12 in het gezicht. Kapsel na afloop gegarandeerd anders.</li>
+            <li><b>De expositie over de Watersnoodramp en de Deltawerken</b> — het hart van het park: hoe de zee in 1953 door de dijken brak en wat Nederland daarna heeft gebouwd.</li>
+            <li><b>Het aquarium en de zeehonden</b> — leven uit de Oosterschelde van dichtbij; er zijn vaste voertijden, check die op het bord bij de ingang.</li>
+            <li><b>Naar buiten, de kering op</b> — sta één keer echt tussen de pijlers en kijk omhoog. Daar snap je pas hoe groot dit ding is.</li>
+          </ul>
+          <p class="desc">Entree is ± € 28 p.p. (12+). Het park werkt met beperkte capaciteit, dus <strong>koop de tickets vooraf online op datum</strong> — dan sta je niet voor niets aan de kassa.</p>
+          <div class="kids">
+            <p class="k-head">🎈 Missie 4 voor Selina</p>
+            <p class="fact">Wist je dat? Koningin Beatrix opende de Oosterscheldekering op 4 oktober 1986 met de woorden: "De stormvloedkering is gesloten. De Deltawerken zijn voltooid. Zeeland is veilig." Selina was toen nog geen jaar oud — de kering en de jarige zijn dus bijna even oud.</p>
+            <p class="task">De kering is 9 kilometer lang en telt 62 stalen schuiven. Ga in de orkaanmachine staan en laat je uitwaaien — het mag, je bent jarig.</p>
+          </div>
+          <span class="tag">Tickets vooraf online kopen</span>
+          <a class="maps" href="https://www.google.com/maps/search/?api=1&amp;query=Deltapark%20Neeltje%20Jans%20Faelweg%205%204354%20RB%20Vrouwenpolder" target="_blank" rel="noopener">📍 Google Maps</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ DEEL 3 · STRAND ============ -->
+  <section class="day day--3">
+    <div class="day-head">
+      <div class="day-num">3</div>
+      <div class="day-meta">
+        <p class="dow">Avond · Vrouwenpolder</p>
+        <h2>Strand, blote voeten &amp; diner aan zee</h2>
+      </div>
+    </div>
+    <p class="day-narr">Het deel waar de hele dag om draaide: uitwaaien op het brede strand van Vrouwenpolder, en dan met zand tussen je tenen aan tafel bij de beachclub. De zon zakt om 20:40 in zee — precies als jullie afrekenen.</p>
+
+    <div class="row first">
+      <div class="rail"><span class="dot travel"></span></div>
+      <div class="stop-body">
+        <div class="stop-card travel">
+          <p class="stop-time">16:30</p>
+          <h3>🚗 Naar het strand</h3>
+          <p class="desc">Neeltje Jans uit, de N57 weer af naar het zuiden, terug over de kering richting Vrouwenpolder.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="rail"></div>
+      <div class="leg-body">
+        <span class="leg-mode"><span class="ic">🚗</span> Autorit naar Vrouwenpolder <span class="dur">· ± 20 min · ~13 km</span></span>
+        <p class="leg-detail">Bij het strand is een grote parkeerplaats aan de voet van de duinen, met directe opgang naar het strand. In het seizoen betaal je hier parkeergeld (reken op ± € 12 voor de dag) — houd een pinpas of de parkeerapp bij de hand.</p>
+        <a class="maps" href="https://www.google.com/maps/dir/?api=1&amp;origin=Deltapark%20Neeltje%20Jans%20Vrouwenpolder&amp;destination=Beachclub%20Lekker%20Vrouwenpolder&amp;travelmode=driving" target="_blank" rel="noopener">📍 Route</a>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="rail"><span class="dot"></span></div>
+      <div class="stop-body">
+        <div class="stop-card">
+          <p class="stop-time">17:00 — 18:30</p>
+          <h3>Ontspannen op het strand van Vrouwenpolder</h3>
+          <p class="addr">Strandopgang Vrouwenpolder · breed zandstrand met duinen in de rug</p>
+          <p class="desc">Anderhalf uur zonder programma. Het strand hier is breed en rustig, met de duinen van Oranjezon achter je en aan de horizon de kering waar jullie net stonden. Perfect uur van de dag: het is er zachter licht, minder volk en de wind is meestal gaan liggen.</p>
+          <p class="desc">Doe een strandwandeling richting de Oosterscheldedam en terug — daar hoort deze dag om te beginnen. Schoenen uit, voeten in het water, en wie durft gaat kopje-onder. Neem een handdoek mee uit de auto, dan hoef je niet te twijfelen.</p>
+          <div class="kids">
+            <p class="k-head">🎈 Missie 5 voor Selina</p>
+            <p class="fact">Wist je dat? De Noordzee is eind augustus op zijn warmst van het hele jaar — de zomer heeft er dan maanden op ingewerkt.</p>
+            <p class="task">Zoek onderweg de mooiste schelp van het strand. Die gaat mee naar Hilversum als aandenken aan je veertigste.</p>
+          </div>
+          <a class="maps" href="https://www.google.com/maps/search/?api=1&amp;query=Strand%20Vrouwenpolder" target="_blank" rel="noopener">📍 Google Maps</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="rail"></div>
+      <div class="leg-body">
+        <span class="leg-mode"><span class="ic">🚶</span> Lopen over het strand <span class="dur">· ± 5 min</span></span>
+        <p class="leg-detail">De beachclub staat op het strand zelf — je loopt er zo naartoe. Even handen en voeten afspoelen kan bij de opgang.</p>
+      </div>
+    </div>
+
+    <div class="row last">
+      <div class="rail"><span class="dot end"></span></div>
+      <div class="stop-body">
+        <div class="stop-card">
+          <p class="stop-time">18:30 — 20:30</p>
+          <h3>Verjaardagsdiner · Beachclub Lekker 🥂</h3>
+          <p class="addr">Strand Vrouwenpolder 70, 4354 XZ Vrouwenpolder · tel. 0118 - 596 408</p>
+          <p class="desc">De afsluiter, en niet zomaar een: Beachclub Lekker werd in 2020 uitgeroepen tot beste strandpaviljoen van Nederland. Je zit direct aan het strand met de Noordzee voor je — vraag om een tafel aan de zeezijde, want vanaf ± 20:00 uur kleurt de lucht boven het water.</p>
+          <p class="desc">Op de kaart staat wat je hier wilt eten: vis van de Noordzee, Zeeuwse oesters en mosselen, en genoeg alternatieven voor wie niet van vis houdt. Neem er de tijd voor; dit is het einde van de dag, niet nog een stop.</p>
+          <div class="kids">
+            <p class="k-head">🥂 De grote toost</p>
+            <p class="task">Tip: geef bij het reserveren door dat het een 40e verjaardag is. Dan kan er een toetje met een kaarsje komen — en heeft iemand de tijd om nog even iets te zeggen voordat het dessert er staat.</p>
+          </div>
+          <span class="tag">Vooraf reserveren · vraag een tafel aan zee</span>
+          <a class="maps" href="https://www.google.com/maps/search/?api=1&amp;query=Beachclub%20Lekker%20Strand%20Vrouwenpolder%2070%204354%20XZ%20Vrouwenpolder" target="_blank" rel="noopener">📍 Google Maps</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TERUGREIS ============ -->
+  <section class="depart">
+    <p class="dep-eyebrow">✦ Zaterdagavond · terugreis</p>
+    <h2>🚗 Terug naar Hilversum</h2>
+    <p>20:30 uur vertrek vanaf Vrouwenpolder. De zon gaat om 20:40 uur onder, dus jullie rijden letterlijk de zonsondergang tegemoet. Reken op ± 2 u 20 rijden (~200 km) — rond 23:00 uur thuis, met zand in de auto en een jarige die niet meer bijkomt.</p>
+    <a class="maps" href="https://www.google.com/maps/dir/?api=1&amp;origin=Beachclub%20Lekker%20Vrouwenpolder&amp;destination=Hilversum&amp;travelmode=driving" target="_blank" rel="noopener">📍 Route terug</a>
+  </section>
+
+  <!-- ============ TIPS ============ -->
+  <section class="tips">
+    <h2>🧺 Goed om te weten</h2>
+    <ul>
+      <li><strong>Vooraf regelen:</strong> tickets Neeltje Jans online op datum (beperkte capaciteit), en reserveer zowel het MarktCafé als Beachclub Lekker — eind augustus is het aan de kust nog volop seizoen.</li>
+      <li><strong>Kleding:</strong> aan zee waait het bijna altijd, ook bij mooi weer. Een extra laagje en een jas voor 's avonds op het strand zijn geen overbodige luxe. En doe schoenen aan die tegen zand kunnen.</li>
+      <li><strong>Neem mee:</strong> handdoek en badkleding (voor wie het water in durft), zonnebrand, een tas voor natte spullen — en een pinpas of parkeerapp voor de parkeerplaatsen in Middelburg en bij het strand.</li>
+      <li><strong>Getij checken:</strong> een strandwandeling is het fijnst rond laagwater, als het strand breed en hard is. Kijk vooraf even de getijden voor Vrouwenpolder na, dan weet je of je richting de dam of juist de andere kant loopt.</li>
+      <li><strong>Ruimte in het schema:</strong> het strakste moment is de lunch (45 minuten). Loopt de ochtend uit, kort dan de wandeling in — het museum opent nu eenmaal pas om 11:00 uur. Wil Selina de Lange Jan beklimmen? Dan gaat de toren vóór het museum, en schuift de lunch een half uur op.</li>
+      <li><strong>Slecht weer?</strong> Neeltje Jans is grotendeels binnen en Beachclub Lekker heeft een warm binnengedeelte. Alleen het strand-uur is weersgevoelig — in dat geval: langer in het park blijven of vroeger aan tafel.</li>
+    </ul>
+  </section>
+
+  <p class="foot"><span class="bon">Gefeliciteerd Selina — geniet van je dag! 🐚</span>Reistijden, openingstijden en prijzen zijn schattingen op basis van de informatie vooraf. Check vlak voor vertrek nog even de actuele tijden en de weersverwachting.</p>
+
+</div>
+</body>
+</html>
